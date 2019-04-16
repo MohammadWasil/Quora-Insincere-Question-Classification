@@ -51,6 +51,12 @@ Sentiment Analyses of the questions have been done using different Recurrent Neu
 |  1 |  LSTM    |         1           |     64      |      1       | 0.299999  |        0.61660          |         0.61996         |
 |  2 |  GRU     |         1           |     128     |      1       | 0.299999  |        0.63823          |         0.64841         |
 
+## Run the code
+
+**Quota_Insincere_Question.ipynb:** This notebbok is used for hyper parameter tunning. You can run this on google colab. 
+**Kaggle Submission CuDNN GRU F2 Threshold.py:** This file is used for training and for creating kaggle submission file.
+
+
 
 
 
