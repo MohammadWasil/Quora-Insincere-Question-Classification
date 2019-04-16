@@ -54,7 +54,7 @@ Sentiment Analyses of the questions have been done using different Recurrent Neu
 ## Run the code
 
 **1) Quota_Insincere_Question.ipynb:** This notebbok is used for hyper parameter tunning. You can run this on google colab. <>
-**2) Kaggle Submission CuDNN GRU F2 Threshold.py:** This file is used for training and for creating kaggle submission file.
+**2) Kaggle Submission CuDNN GRU F2 Threshold.py:** This file is used for training with GRU units, with specific hyper parameters, shown in the above table and for creating kaggle submission file.
 
 
 
