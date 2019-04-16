@@ -39,6 +39,25 @@ To install requests package:<Br/>
 
 There are Two datasets - 1) train data 2) Test data.
 
-Train Data has 1.3m rows, with 3 columns - qid, question_text, target.
+Train Data has 1.3m rows, with 3 columns - qid, question_text, target.<Br/>
 Test data has 376k rows with only 2 columns - qid, and question_text. 
+
+## Sentiment Analysis
+
+Sentiment Analyses of the questions have been done using different Recurrent Neural Network(RNN) units like, Gated Recurrent Units(GRU),  and Long Short-term Memory(LSTM), and Convolutional Neural Network. We trained the model using different hyper-parameters(like, number of convolutional and dense layers, filter sizes, threshold value) to find the model with highest F1 score, since it is a skewed data.
+
+|S.NO| RNN Unit | Convolutional block | Filter size | #Dense Layer | Threshold | Public Dataset | Private Dataset|
+|----|----------|---------------------|-------------|--------------|-----------|----------------|----------------|
+|  1 | LSTM     | 1                   | 64          | 1            | 0.299999  | Public Dataset | Private Dataset|
+|  2 | GRU      | 1                   | 128         | 1            | 0.299999  | Public Dataset | Private Dataset|
+
+
+
+
+
+
+
+
+
+
 
