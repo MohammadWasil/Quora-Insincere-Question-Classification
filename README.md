@@ -46,10 +46,10 @@ Test data has 376k rows with only 2 columns - qid, and question_text.
 
 Sentiment Analyses of the questions have been done using different Recurrent Neural Network(RNN) units like, Gated Recurrent Units(GRU),  and Long Short-term Memory(LSTM), and Convolutional Neural Network. We trained the model using different hyper-parameters(like, number of convolutional and dense layers, filter sizes, threshold value) to find the model with highest F1 score, since it is a skewed data.
 
-|S.NO| RNN Unit | Convolutional block | Filter size | #Dense Layer | Threshold | Public Dataset | Private Dataset|
-|----|----------|---------------------|-------------|--------------|-----------|----------------|----------------|
-|  1 | LSTM     | 1                   | 64          | 1            | 0.299999  | 0.61660        | 0.61996        |
-|  2 | GRU      | 1                   | 128         | 1            | 0.299999  | 0.63823        | 0.64841        |
+|S.NO| RNN Unit | Convolutional block | Filter size | #Dense Layer | Threshold | Public Dataset F1 Score | Private Dataset F1 Score|
+|----|----------|---------------------|-------------|--------------|-----------|-------------------------|-------------------------|
+|  1 |  LSTM    |         1           |     64      |      1       | 0.299999  |        0.61660          |         0.61996         |
+|  2 |  GRU     |         1           |     128     |      1       | 0.299999  |        0.63823          |         0.64841         |
 
 
 
