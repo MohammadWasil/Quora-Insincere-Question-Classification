@@ -8,28 +8,29 @@ This is a Kaggle Competition : [Quora Insincere Questions Classification.](https
 
 ## Dependencies
 
-You can install dependencies by running the following command in colab notebook:
-'''
+You can install dependencies by running the following command in colab notebook:<Br/>
+```
 #To install pydrive
 !pip install -U -q PyDrive
-'''
+```
 To download Kaggle dataset directly to google colab disk:
 1) Sign in to Kaggle.
 2) Download kaggle json file.
 3) In google colab, upload that file.
-4) Then install the required packages:
-'''
+4) Then install the required packages:<Br/>
+```
 !pip install -q kaggle
 !mkdir -p ~/.kaggle
 !cp kaggle.json ~/.kaggle/
 !ls ~/.kaggle
-'''
+```
 
-Now, you can download the dataset:
+Now, you can download the dataset:<Br/>
 '''
 !kaggle competitions download -c quora-insincere-questions-classification
 '''
-To instakll requests package:
+
+To install requests package:<Br/>
 '''
 !pip install requests
 '''
