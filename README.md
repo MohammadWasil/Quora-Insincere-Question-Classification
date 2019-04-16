@@ -4,7 +4,7 @@
 
 Quora is a platform that empowers people to learn from each other. On Quora, people can ask questions and connect with others who contribute unique insights and quality answers.
 
-This is a Kaggle Competition : [Quora Insincere Questions Classification.](https://www.kaggle.com/c/quora-insincere-questions-classification)
+This is a Kaggle Competition : [Quora Insincere Questions Classification.](https://www.kaggle.com/c/quora-insincere-questions-classification). We will be predicting whether a question asked on Quora is sincere or not. An insincere question is defined as a question intended to make a statement rather than look for helpful answers. 
 
 ## Dependencies
 
@@ -26,15 +26,19 @@ To download Kaggle dataset directly to google colab disk:
 ```
 
 Now, you can download the dataset:<Br/>
-'''
+```
 !kaggle competitions download -c quora-insincere-questions-classification
-'''
+```
 
 To install requests package:<Br/>
-'''
+```
 !pip install requests
-'''
-
+```
 
 ## Dataset
+
+There are Two datasets - 1) train data 2) Test data.
+
+Train Data has 1.3m rows, with 3 columns - qid, question_text, target.
+Test data has 376k rows with only 2 columns - qid, and question_text. 
 
