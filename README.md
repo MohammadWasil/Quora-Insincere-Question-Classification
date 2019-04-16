@@ -48,8 +48,8 @@ Sentiment Analyses of the questions have been done using different Recurrent Neu
 
 |S.NO| RNN Unit | Convolutional block | Filter size | #Dense Layer | Threshold | Public Dataset | Private Dataset|
 |----|----------|---------------------|-------------|--------------|-----------|----------------|----------------|
-|  1 | LSTM     | 1                   | 64          | 1            | 0.299999  | Public Dataset | Private Dataset|
-|  2 | GRU      | 1                   | 128         | 1            | 0.299999  | Public Dataset | Private Dataset|
+|  1 | LSTM     | 1                   | 64          | 1            | 0.299999  | 0.61660        | 0.61996        |
+|  2 | GRU      | 1                   | 128         | 1            | 0.299999  | 0.63823        | 0.64841        |
 
 
 
